@@ -45,3 +45,13 @@ pets = [
   "pet3-oddly-wildly-vastly-allowed-hawk",
 ]
 ```
+
+## Testing with [terratest](https://github.com/gruntwork-io/terratest)
+
+The project includes a simple test using [terratest](https://github.com/gruntwork-io/terratest).
+
+To run the test:
+
+1. [Install](https://golang.org/dl/) Golang `>= 1.13` if not already installed.
+2. run `go get -v -d -t ./test/...` to install prerequisite packages if not already installed.
+3. run `go test -v ./test/` to execute tests
