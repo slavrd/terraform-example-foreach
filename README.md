@@ -13,11 +13,11 @@ If we are using `for_each` with a set of strings `each.value` and `each.key` ret
 
 ## Example description
 
-This project crates several `random_pet` resources based on a user input.
+This project creates several `random_pet` resources based on a user input.
 
-There is a map input variable `pets` that consists of pets' name prefixes for keys and a corresponding value for the name length.
+The user input is provided via a map variable `pets` that consists of pets' name prefixes for keys and a corresponding value for the name length.
 
-Terraform will create the `random_pet`s based on the `pets` variable and output the resulting names.
+Terraform will create the `random_pet`s based on the values in the `pets` variable and output the resulting names.
 
 ## Usage
 
